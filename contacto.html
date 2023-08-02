@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="Css/all.min.css">
+    <title>Formulario de contacto</title>
+</head>
+<body>
+    <div id="principal">
+			
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+            <a class="navbar-brand" href="index.html">Informática<br><small>Aprendiendo a diseñar</small></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="MENU">
+        
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="inicio_paginas.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="inicio_paginas.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="inicio_paginas.html">Clientes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+         </nav>
+
+         <div class="container">
+          <div class="row my-5">
+              <div class="col-lg-4">
+                  <h2>Formulario de contacto</h2>
+                  <hr>
+  
+                  <form>
+
+                      <div class="form-group">
+                          <label for="nombre">Nombre</label>
+                          <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Escriba su nombre">
+                      </div>
+  
+                      <div class="form-group">
+                          <label for="correo">Correo</label>
+                          <input type="email" class="form-control" id="correo" name="correo" placeholder="Escriba su correo electronico">
+                      </div>
+  
+                      <div class="form-group">
+                          <label for="asunto">Asunto</label>
+                          <input type="text" class="form-control" id="asunto" name="asunto" placeholder="Asunto">
+                      </div>
+  
+                      <div class="form-group">
+                          <label for="mensaje">Mensaje</label>
+                          <textarea class="form-control" id="mensaje" rows="5"></textarea>
+                      </div>
+  
+                      <p class="float-left d-none" id="info"></p>
+                      <button class="btn btn-success float-right" type="button" onclick="enviarMensaje();">Enviar</button>
+  
+                  </form>
+  
+              </div> 
+     
+            <div class="col-lg-6 offset-lg-2">
+             <h2 class="text-center">Información </h2>
+             <h5 class="text-center">Aprendiendo a Diseñar</h5>
+             <hr>
+
+             <div class="row mt-5">
+                 <div class="col-2 my-auto" ><i class="fas fa-map-marker-alt fa-lg"></i> </div>
+                  <div class="col-10">Masaya, Nicaragua, del colegio buen pastor 1c.oe, frente la chacarita</div>
+             </div>
+
+             <div class="row mt-4">
+                <div class="col-2 my-auto" ><i class="fas fa-envelope fa-lg"></i> </div>
+                 <div class="col-10"><a href="mailto:eldwin0303@outlook.com">edwin2352021gr@gmail.com</a></div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-2 my-auto" ><i class="fas fa-phone-square-alt fa-lg"></i> </div>
+                 <div class="col-10">+505 83821226</div>
+            </div>
+           
+            <div class="row mt-4">
+                <div class="col-2 my-auto" ><i class="fab fa-facebook-square fa-lg"></i> </div>
+                 <div class="col-10"><a href="https://www.facebook.com/profile.php?id=100005840478038" target="_blank">Edwin Acevedo</a></div>
+            </div>
+        </div>
+     </div>
+ </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Contacto.js"></script>
+</body>
+</html>

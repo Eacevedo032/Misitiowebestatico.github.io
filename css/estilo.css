@@ -1,0 +1,154 @@
+#principal{
+    width: 900px;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid #fff;
+    margin: auto;
+
+}
+
+header{
+    width: 900px;
+    height: 100px;
+    border: 0px solid #fff;
+
+}
+
+#logo{
+     
+    width: 200px;
+    height: 100px;
+    border: 0px solid #000;
+    float: left;
+    font-family: sans-serif;
+}
+
+.titulo{
+    margin-top: 25px;
+    font-size: 30px;
+    border: 5px solid #b4b246;
+    color: #b4b246;
+}
+
+.sub-titulo{
+    font-size: 14px;
+    margin-top: -20px;
+    border: 5px solid #b4a946;
+    color: #b4ad46;
+
+}
+
+.menu{
+    width: 469px;
+    height: 40px;
+    border: 1px solid rgb(238, 199, 25);
+    float: right;
+    margin-top: 40px;
+    background: #8d989b;
+}
+
+.menu ul li{
+     list-style: none;
+     float: left;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 0px;
+    color: rgb(247, 222, 1);
+
+}
+
+.menu ul li a:hover{
+    background: rgb(187, 28, 28);
+    color: #b3bd25;
+    transition: background 1s,color 1s;
+}
+
+#slide{
+	margin-top: -5px;
+	width: 900px;
+	height: 250px;
+}
+
+
+#categorias{
+	width: 900px;
+	height: auto; 
+	overflow: hidden;
+	border: 0px solid;
+	margin-top: 15px;
+	color: #006699;
+}
+
+.uno{
+    width: 31%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    float: left;
+    padding: 5px;
+    text-align: center;
+    color: #b4b246;
+
+}
+
+.parrafo{
+    color:  #fff;
+    text-align: justify;
+
+}
+
+.dos{
+    color:#b4b246;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#info{
+    width: 900px;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid #ccc;
+    margin-top: 10px;
+    color: #998200;
+
+}
+
+#izq{
+	width: 585px;
+	height: auto; 
+	overflow: hidden;
+	border: 1px solid #fff;
+	float: left;
+	padding: 5px; color: #4ec6d9;
+}
+
+#der{
+	width: 290px;
+	height: 200px;
+	border: 1px solid #fff;
+    float: right;
+    padding: 5px; color: #4ec6d9;
+	color: #b4a946;
+}
+
+footer{
+    width: 900px;
+    height: 100px;
+    text-align: center;
+    color: #000;
+}
+
+.siguiente{
+    text-align: center;
+    color:#4682b4;
+}
+
+@media(max-width: 1024px){
+    .uno{
+        width: 100%;
+    }
+}
+
